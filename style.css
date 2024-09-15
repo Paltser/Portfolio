@@ -262,9 +262,6 @@ code {
 
 .skills {
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background-color: #3A506B;
     padding: 20px 50px;
     border-radius: 10px;
@@ -314,6 +311,12 @@ code {
 
 .skill-level.python {
     width: 40%; /* Python skill level */
+}
+.skill-level.php {
+    width: 35%; /* php skill level */
+}
+.skill-level.mysql {
+    width: 60%; /* mysql skill level */
 }
 
 .contacts-container {
